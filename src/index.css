@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* =========================================
+   Local Sahel Font Definitions (Zero CDN Lag)
+   ========================================= */
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/Sahel.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/Sahel-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/Sahel-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('/fonts/Sahel-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Sahel', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+}
+
+/* Typography Helpers */
+.font-sahel {
+  font-family: 'Sahel', sans-serif !important;
+}
+
+.font-sans-editorial {
+  font-family: 'Plus Jakarta Sans', 'Sahel', system-ui, sans-serif;
+}
+
+.font-serif-editorial {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-mono-tech, .font-mono {
+  font-family: 'JetBrains Mono', 'Sahel', monospace;
+}
+
+/* =========================================================
+   Strict Persian (RTL) Font & Tracking Enforcement
+   Prevents broken letter connections and system font fallback
+   ========================================================= */
+[dir="rtl"] {
+  font-family: 'Sahel', sans-serif;
+}
+
+[dir="rtl"] [class*="tracking-"] {
+  letter-spacing: normal !important;
+}
+
+[dir="rtl"] .font-serif-editorial,
+[dir="rtl"] .font-serif,
+[dir="rtl"] .italic {
+  font-style: normal !important;
+  font-family: 'Sahel', sans-serif !important;
+}
+
+/* When in RTL, keep font-mono exclusively for Latin/English symbols and numbers */
+[dir="rtl"] .font-mono {
+  letter-spacing: normal !important;
+}
+
+/* =========================================================
+   Light Mode: Pink / Magenta / Violet / Crisp White
+   Dark Mode: Emerald Green / Obsidian Black / Electric Blue
+   ========================================================= */
+
+/* Hero Highlight Box */
+.gradient-magenta-box {
+  background: linear-gradient(135deg, #e11d48 0%, #c026d3 50%, #9333ea 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15em 0.5em;
+  color: #ffffff;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  box-shadow: 0 4px 15px rgba(192, 38, 211, 0.25);
+  transition: all 0.3s ease;
+}
+
+.dark .gradient-magenta-box {
+  background: linear-gradient(135deg, #c2410c 0%, #ea580c 35%, #f97316 70%, #fdba74 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.35);
+}
+
+/* Portrait Canvas Card */
+.portrait-gradient-canvas {
+  background: linear-gradient(145deg, #f472b6 0%, #c026d3 40%, #7e22ce 100%);
+  box-shadow: 0 10px 30px rgba(192, 38, 211, 0.2);
+  transition: all 0.3s ease;
+}
+
+.dark .portrait-gradient-canvas {
+  background: linear-gradient(145deg, #9a3412 0%, #c2410c 30%, #ea580c 65%, #fed7aa 100%);
+  box-shadow: 0 10px 35px rgba(234, 88, 12, 0.3);
+}
+
+/* Subtle Architectural Grid Lines */
+.editorial-grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.045) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.dark .editorial-grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(249, 115, 22, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(254, 215, 170, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(249, 115, 22, 0.3);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.5);
+}

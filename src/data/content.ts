@@ -1,0 +1,501 @@
+import type { SiteContent } from '../types/portfolio';
+
+export const contentFA: SiteContent = {
+  nav: {
+    home: 'خانه',
+    about: 'درباره من',
+    skills: 'مهارت‌ها',
+    projects: 'پروژه‌ها',
+    education: 'تحصیلات',
+    contact: 'تماس',
+    statusBadge: 'دانشگاه صنعتی امیرکبیر',
+    cta: 'شروع همکاری',
+  },
+  hero: {
+    badge: 'دانشجوی مهندسی کامپیوتر • دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)',
+    headlinePart1: 'توسعه مهندسی نرم‌افزار و سخت‌افزار،',
+    highlightWord: 'با تفکر الگوریتمی',
+    headlinePart2: 'از مدارهای دیجیتال تا وب مدرن',
+    subheadlineEditorial: 'علی محمدی، ۲۰ ساله، متمرکز بر مهندسی و توسعه نرم افزار و طراحی و دیزاین وب.',
+    inputPlaceholder: 'ایمیل شما جهت ارتباط یا همکاری...',
+    actionButton: 'ارتباط مستقیم',
+    microNote: 'آماده همکاری در پروژه‌های جدی، تیم‌های فنی نوآور و چالش‌های محاسباتی.',
+    portraitLabel: 'ALI MOHAMADI • AUT POLYTECHNIC',
+    stats: [
+      { number: '۲۰', label: 'سال سن' },
+      { number: '۴+', label: 'پروژه‌ها' },
+      { number: 'Software & Web', label: 'حوزه تخصصی' },
+      { number: 'AUT', label: 'دانشگاه امیرکبیر' },
+    ],
+  },
+  about: {
+    sectionNum: '۰۱',
+    title: 'درباره من و مسیر مهندسی',
+    tagline: '',
+    bioParagraph1:
+      'سلام! من علی محمدی هستم؛ ۲۰ سالم است و دانشجوی کارشناسی مهندسی کامپیوتر دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) هستم. علاقه زیادی به برنامه‌نویسی مخصوصاً در حوزه نرم‌افزار و توسعهٔ وب دارم و در این جهت در زبان‌های برنامه‌نویسی C, Java, Python, React و TypeScript، مهندسی UI/UX و مسائل الگوریتمی مهارت دارم. همچنین آشنایی مناسبی با حوزه سخت‌افزار و طراحی مدارهای دیجیتال دارم و با زبان‌های VHDL و Verilog و سنتز سطح بالا (High-Level Synthesis - HLS) آشنا هستم.',
+    bioParagraph2:
+      'در حال حاضر در حال یادگیری و مطالعه مبانی هوش مصنوعی، یادگیری ماشین (Machine Learning) و شبکه‌های عصبی هستم و آینده کاری خود را در این مسیر می‌بینم. در طول تحصیل، پروژه‌های فردی و دانشگاهی زیادی را پشت سر گذاشته‌ام. پروژه فردی شاخص من، سامانه UniSchedule است؛ ابزاری پیشرفته برای چیدمان برنامه هفتگی دانشجویان در جهت آماده شدن برای روز انتخاب واحد با قابلیت‌های کاربردی، که تاکنون با پشتیبانی از ۵ دانشگاه مطرح کشور در قابلیت کلیدی «بانک دروس دانشگاه»، رضایت کاربران را به همراه داشته است.',
+    facts: [
+      { key: 'دانشگاه', val: 'دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)' },
+      { key: 'سن و مقطع', val: '۲۰ ساله • دانشجوی کارشناسی مهندسی کامپیوتر' },
+      { key: 'حوزه‌های فنی', val: 'C, Java, Python, React, TypeScript' },
+      { key: 'پروژه شاخص', val: 'سامانه هوشمند انتخاب واحد UniSchedule' },
+    ],
+  },
+  skills: {
+    sectionNum: '۰۲',
+    title: 'تخصص‌ها و ابزارها',
+    subtitle: 'تسلط چندلایه از منطق دیجیتال تا معماری فرانت‌اند مدرن',
+    categories: [
+      {
+        id: 'software',
+        code: 'SEC_01 // CORE_SOFTWARE',
+        name: 'نرم‌افزار سیستمی و زبان‌ها',
+        skills: [
+          { name: 'C', level: 'متوسط رو به بالا', proficiency: 82, tag: 'Memory / Raylib' },
+          { name: 'Java', level: 'متوسط رو به بالا', proficiency: 85, tag: 'OOP / JavaFX' },
+          { name: 'الگوریتم و ساختار داده', level: 'پیشرفته', proficiency: 88, tag: 'Complexity' },
+          { name: 'Python', level: 'کاربردی', proficiency: 70, tag: 'Scripting' },
+        ],
+      },
+      {
+        id: 'web',
+        code: 'SEC_02 // MODERN_WEB',
+        name: 'تکنولوژی‌های وب و فرانت‌اند',
+        skills: [
+          { name: 'React', level: 'مسلط', proficiency: 84, tag: 'Hooks / State' },
+          { name: 'TypeScript', level: 'مسلط', proficiency: 80, tag: 'Strict Typing' },
+          { name: 'JavaScript (ES6+)', level: 'پیشرفته', proficiency: 86, tag: 'Async / DOM' },
+          { name: 'Tailwind CSS', level: 'پیشرفته', proficiency: 90, tag: 'Design Systems' },
+          { name: 'HTML5 & CSS3', level: 'پیشرفته', proficiency: 92, tag: 'Semantics' },
+        ],
+      },
+      {
+        id: 'hardware',
+        code: 'SEC_03 // DIGITAL_SYSTEMS',
+        name: 'سخت‌افزار و طراحی دیجیتال',
+        skills: [
+          { name: 'VHDL', level: 'کاربردی', proficiency: 76, tag: 'RTL / FSM' },
+          { name: 'Verilog', level: 'کاربردی', proficiency: 74, tag: 'Logic Modeling' },
+          { name: 'High-Level Synthesis (HLS)', level: 'کاربردی', proficiency: 72, tag: 'FPGA Accel' },
+          { name: 'طراحی مدارهای منطقی', level: 'قوی', proficiency: 85, tag: 'Microarch' },
+        ],
+      },
+      {
+        id: 'tools',
+        code: 'SEC_04 // TOOLKIT',
+        name: 'محیط‌ها و ابزارهای مهندسی',
+        skills: [
+          { name: 'Git & GitHub', level: 'روزمره', proficiency: 85, tag: 'VCS / Workflows' },
+          { name: 'JavaFX', level: 'پروژه‌محور', proficiency: 80, tag: 'Desktop UI' },
+          { name: 'Raylib', level: 'بازی‌سازی', proficiency: 78, tag: '2D Graphics' },
+          { name: 'Linux & Bash', level: 'کاربردی', proficiency: 75, tag: 'Unix CLI' },
+        ],
+      },
+    ],
+  },
+  projects: {
+    sectionNum: '۰۳',
+    title: 'نمونه‌کارها و پروژه‌ها',
+    subtitle: 'آرشیو پروژه‌های فردی، مهندسی نرم‌افزار، شتاب‌دهنده‌های سخت‌افزاری و گرافیک',
+    filterAll: 'همه',
+    filterFlagship: 'پروژه شاخص (UniSchedule)',
+    filterSoftware: 'نرم‌افزار و بازی',
+    filterHardware: 'سخت‌افزار و HLS',
+    viewLive: 'مشاهده آنلاین',
+    viewGithub: 'کد منبع',
+    detailsBtn: 'مشخصات فنی',
+    items: [
+      {
+        id: 'unischedule',
+        number: '۰۱',
+        title: 'UniSchedule',
+        subtitle: 'وب‌اپلیکیشن هوشمند چیدمان برنامه هفتگی و رفع تداخل دانشگاه',
+        description:
+          'پروژه فردی شاخص، با کیفیت بالا و طراحی مهندسی‌شده. یک وب‌اپلیکیشن مینیمال برای برنامه‌ریزی هفتگی، رفع لحظه‌ای تداخل کلاسی و امتحانات پایان‌ترم با پشتیبانی از ۵ دانشگاه مطرح کشور و امکان گسترش سریع.',
+        fullDetails:
+          'پروژه UniSchedule با هدف تسهیل دوره‌های انتخاب واحد طراحی شده است. دانشجو می‌تواند در فضایی ارگونومیک، سریع و بدون سردرگمی، چند سناریوی چیدمان هفتگی تدوین کرده و تعارض‌های زمانی دروس و امتحانات را به شکل بلادرنگ مشاهده و مدیریت نماید.',
+        category: 'flagship',
+        tags: ['React', 'TypeScript', 'Tailwind', 'Algorithms', 'Minimalist UI'],
+        featured: true,
+        year: '۱۴۰۵',
+        role: 'طراح، معمار نرم‌افزار و توسعه‌دهنده',
+        highlights: [
+          'پشتیبانی پیش‌فرض از ۵ دانشگاه کشور با قابلیت افزوده شدن دانشگاه‌های بیشتر',
+          'تشخیص لحظه‌ای و ۱۰۰ درصدی تداخل‌های ساعتی کلاسی و امتحانات پایان‌ترم',
+          'طراحی تمیز، روان و ارگونومیک با تمرکز بالا بر تجربه کاربری دانشجو',
+        ],
+        metrics: [
+          { label: 'دانشگاه‌های فعال', value: '۵ دانشگاه' },
+          { label: 'دقت رفع تداخل', value: '۱۰۰٪ بلادرنگ' },
+          { label: 'رویکرد معماری', value: 'ماژولار و بهینه' },
+        ],
+        accentColor: 'from-fuchsia-600 to-purple-600',
+      },
+      {
+        id: 'pso-hardware',
+        number: '۰۲',
+        title: 'شتاب‌دهنده سخت‌افزاری PSO',
+        subtitle: 'مکان‌یابی بهینه ایستگاه‌های پایه مخابراتی (BTS) با VHDL و HLS',
+        description:
+          'طراحی شتاب‌دهنده سخت‌افزاری الگوریتم ازدحام ذرات (PSO) در کاربرد مکان‌یابی ایستگاه‌های پایه مخابراتی با استفاده از زبان VHDL و بهره‌گیری از قابلیت HLS جهت دستیابی به محاسبات موازی سریع.',
+        fullDetails:
+          'در این پروژه با بهره‌گیری از تکنیک‌های سنتز سطح بالا (HLS) و خط‌لوله‌گذاری محاسباتی (Pipelining)، فرآیند ارزیابی برازش و به‌روزرسانی مکان و سرعت ذرات بر بستر مدار سخت‌افزاری موازی پیاده‌سازی شده است.',
+        category: 'hardware',
+        tags: ['VHDL', 'HLS', 'FPGA', 'Digital Systems', 'Optimization'],
+        featured: false,
+        year: '۱۴۰۵',
+        role: 'طراح سخت‌افزار دیجیتال',
+        highlights: [
+          'خط‌لوله‌گذاری واحدهای محاسباتی جهت افزایش فرکانس کاری مدار',
+          'مدلسازی ریاضی تابع هدف پوشش مخابراتی و بهینه‌سازی توان مصرفی',
+        ],
+        metrics: [
+          { label: 'تکنولوژی', value: 'VHDL / HLS' },
+          { label: 'کاربرد', value: 'پوشش BTS' },
+        ],
+        accentColor: 'from-amber-600 to-orange-600',
+      },
+      {
+        id: 'foodline',
+        number: '۰۳',
+        title: 'فودلاین (FoodLine)',
+        subtitle: 'پلتفرم جامع سفارش غذا با زبان Java و رابط کاربری JavaFX',
+        description:
+          'ساخت پلتفرم سفارش غذا (مشابه اسنپ‌فود) به نام فودلاین با استفاده از زبان Java و پیاده‌سازی فرانت‌اند با JavaFX بر پایه الگوهای شیءگرایی و معماری چندلایه.',
+        fullDetails:
+          'تمرکز اصلی بر معماری تمیز شیءگرا (SOLID)، تفکیک لایه‌های بیزینس و نمایش، مدیریت منوی چندرستورانی، سبد خرید پویا و استایل‌دهی سفارشی JavaFX بوده است.',
+        category: 'software',
+        tags: ['Java', 'JavaFX', 'OOP Architecture', 'Desktop GUI'],
+        featured: false,
+        year: '۱۴۰۴',
+        role: 'معمار نرم‌افزار و توسعه‌دهنده جاوا',
+        highlights: [
+          'کدنویسی تمیز شیءگرا با ساختار ماژولار و قابل نگهداری',
+          'رابط کاربری دسکتاپ مدرن و تعاملی با JavaFX',
+        ],
+        metrics: [
+          { label: 'هسته برنامه', value: 'Java خالص' },
+          { label: 'رابط کاربری', value: 'JavaFX' },
+        ],
+        accentColor: 'from-emerald-600 to-teal-600',
+      },
+      {
+        id: 'pacman-c',
+        number: '۰۴',
+        title: 'بازی Pac-Man با C',
+        subtitle: 'ساخت بازی کلاسیک پک‌من با زبان C و کتابخانه Raylib',
+        description:
+          'توسعه کامل بازی Pac-Man با زبان برنامه‌نویسی C و کتابخانه گرافیکی Raylib، مدیریت دستی حافظه، کنترل دقیق حلقه بازی و هوش مصنوعی حالات اشباح.',
+        fullDetails:
+          'پیاده‌سازی این بازی با زبان C امکان تسلط بر پوینترها، مدیریت بافر، رندرینگ ۶۰ فریم بر ثانیه و هوش مصنوعی حالات مختلف تعقیب و گریز اشباح را به شکلی اصیل فراهم ساخت.',
+        category: 'software',
+        tags: ['C Language', 'Raylib', 'Game Loop', 'AI States'],
+        featured: false,
+        year: '۱۴۰۳',
+        role: 'توسعه‌دهنده بازی و الگوریتم',
+        highlights: [
+          'اجرای پایدار و سبک با ۶۰ فریم بر ثانیه و حداقل بار پردازشی',
+          'پیاده‌سازی رفتار دقیق اشباح بر اساس ماشین حالت هوش مصنوعی',
+        ],
+        metrics: [
+          { label: 'زبان پیاده‌سازی', value: 'زبان C' },
+          { label: 'کتابخانه گرافیک', value: 'Raylib' },
+        ],
+        accentColor: 'from-yellow-500 to-amber-600',
+      },
+    ],
+  },
+  education: {
+    sectionNum: '۰۴',
+    title: 'سوابق دانشگاهی',
+    subtitle: 'دانشکده مهندسی کامپیوتر دانشگاه صنعتی امیرکبیر',
+    degree: 'کارشناسی (B.Sc.)',
+    field: 'مهندسی کامپیوتر',
+    institution: 'دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران)',
+    period: '۱۴۰۱ — اکنون (در حال تحصیل)',
+    location: 'تهران، ایران',
+    description:
+      'دانشجوی مقطع کارشناسی مهندسی کامپیوتر دانشگاه صنعتی امیرکبیر؛ کسب پایه‌های علمی و عملی عمیق در زمینه طراحی سیستم‌های دیجیتال، ساختارهای داده و الگوریتم‌ها، معماری کامپیوتر و مهندسی نرم‌افزار.',
+    courses: [
+      'طراحی سیستم‌های دیجیتال و توصیف سخت‌افزار',
+      'ساختمان داده‌ها و طراحی الگوریتم‌ها',
+      'مدارهای منطقی و آزمایشگاه دیجیتال',
+      'سیستم‌های عامل و برنامه‌نویسی سیستمی',
+    ],
+  },
+  contact: {
+    sectionNum: '۰۵',
+    title: 'شروع یک همکاری',
+    subtitle: 'ارتباط مستقیم جهت گفتگو پیرامون پروژه‌ها و فرصت‌های کاری',
+    leadText:
+      'اگر به دنبال توسعه‌دهنده‌ای متعهد به استانداردهای بالای مهندسی هستید یا ایده‌ای دارید که نیازمند پیاده‌سازی فنی دقیق است، خوشحال می‌شوم پیام بفرستید.',
+    email: 'alimohamadi.dev@example.com',
+    copyEmail: 'کپی ایمیل',
+    copied: 'کپی شد!',
+    form: {
+      name: 'نام و نام خانوادگی',
+      email: 'آدرس ایمیل',
+      message: 'شرح پیام یا پروژه مورد نظر...',
+      submit: 'ارسال پیام →',
+      sending: 'در حال ارسال...',
+      sent: 'پیام شما دریافت شد. به زودی پاسخ داده خواهد شد.',
+    },
+  },
+  footer: {
+    signature: 'علی محمدی • مهندس کامپیوتر',
+    copyright: '© ۲۰۲۶ تمامی حقوق محفوظ است.',
+    backToTop: 'بازگشت به بالا ↑',
+  },
+};
+
+export const contentEN: SiteContent = {
+  nav: {
+    home: 'Home',
+    about: 'About',
+    skills: 'Skills',
+    projects: 'Projects',
+    education: 'Education',
+    contact: 'Contact',
+    statusBadge: 'Tehran Polytechnic',
+    cta: "Let's Collaborate",
+  },
+  hero: {
+    badge: 'Computer Engineering Student • Tehran Polytechnic (AUT)',
+    headlinePart1: 'Building High-Performance Systems,',
+    highlightWord: 'Engineering Rigor',
+    headlinePart2: 'From Digital Logic to Modern Web',
+    subheadlineEditorial: 'Ali Mohamadi, 20; focused on software engineering, modern development, and web design.',
+    inputPlaceholder: 'Enter your email for inquiries or collaboration...',
+    actionButton: 'Connect Directly',
+    microNote: 'Available for technical collaborations, innovative engineering teams, and high-impact software.',
+    portraitLabel: 'ALI MOHAMADI • AUT POLYTECHNIC',
+    stats: [
+      { number: '20', label: 'Years Old' },
+      { number: '4+', label: 'Projects' },
+      { number: 'Software & Web', label: 'Core Focus' },
+      { number: 'AUT', label: 'Tehran Polytech' },
+    ],
+  },
+  about: {
+    sectionNum: '01',
+    title: 'About Me & Engineering Journey',
+    tagline: '',
+    bioParagraph1:
+      'Hi! I am Ali Mohamadi, a 20-year-old Computer Engineering undergraduate at Amirkabir University of Technology (Tehran Polytechnic). I have a strong passion for programming, especially software engineering and modern web development, with hands-on proficiency in C, Java, Python, React, and TypeScript, UI/UX design, and algorithmic problem-solving. I also possess a solid understanding of digital hardware and circuit design, and I am familiar with VHDL, Verilog, and High-Level Synthesis (HLS).',
+    bioParagraph2:
+      'Currently, I am actively studying the fundamentals of Artificial Intelligence, Machine Learning, and Neural Networks, envisioning my future career trajectory in this domain. Throughout my academic journey, I have completed numerous individual and academic projects. My flagship individual project is UniSchedule: an advanced weekly scheduling platform designed to streamline course registration with intuitive and practical features, currently supporting 5 top universities in Iran with its key "University Course Bank" feature and earning strong user satisfaction.',
+    facts: [
+      { key: 'Institution', val: 'Amirkabir University of Technology (Tehran Polytechnic)' },
+      { key: 'Age & Major', val: '20 Years Old • B.Sc. Computer Engineering' },
+      { key: 'Technical Stack', val: 'C, Java, Python, React, TypeScript' },
+      { key: 'Flagship Project', val: 'UniSchedule Platform (5 Universities)' },
+    ],
+  },
+  skills: {
+    sectionNum: '02',
+    title: 'Technical Arsenal',
+    subtitle: 'Full-spectrum competencies from digital synthesis to modern web architecture',
+    categories: [
+      {
+        id: 'software',
+        code: 'SEC_01 // CORE_SOFTWARE',
+        name: 'Systems & Core Languages',
+        skills: [
+          { name: 'C Language', level: 'Upper Intermediate', proficiency: 82, tag: 'Memory / Raylib' },
+          { name: 'Java', level: 'Upper Intermediate', proficiency: 85, tag: 'OOP / JavaFX' },
+          { name: 'Algorithms & Data Structures', level: 'Advanced', proficiency: 88, tag: 'Complexity' },
+          { name: 'Python', level: 'Practical', proficiency: 70, tag: 'Scripting' },
+        ],
+      },
+      {
+        id: 'web',
+        code: 'SEC_02 // MODERN_WEB',
+        name: 'Web Engineering & Frontend',
+        skills: [
+          { name: 'React', level: 'Proficient', proficiency: 84, tag: 'Hooks / State' },
+          { name: 'TypeScript', level: 'Proficient', proficiency: 80, tag: 'Strict Typing' },
+          { name: 'JavaScript (ES6+)', level: 'Advanced', proficiency: 86, tag: 'Async / DOM' },
+          { name: 'Tailwind CSS', level: 'Advanced', proficiency: 90, tag: 'Design Systems' },
+          { name: 'HTML5 & CSS3', level: 'Advanced', proficiency: 92, tag: 'Semantics' },
+        ],
+      },
+      {
+        id: 'hardware',
+        code: 'SEC_03 // DIGITAL_SYSTEMS',
+        name: 'Hardware & Digital Logic',
+        skills: [
+          { name: 'VHDL', level: 'Proficient', proficiency: 76, tag: 'RTL / FSM' },
+          { name: 'Verilog', level: 'Proficient', proficiency: 74, tag: 'Logic Modeling' },
+          { name: 'High-Level Synthesis (HLS)', level: 'Applied', proficiency: 72, tag: 'FPGA Accel' },
+          { name: 'Digital Logic Design', level: 'Strong Academic', proficiency: 85, tag: 'Microarch' },
+        ],
+      },
+      {
+        id: 'tools',
+        code: 'SEC_04 // TOOLKIT',
+        name: 'Engineering Tooling',
+        skills: [
+          { name: 'Git & GitHub', level: 'Daily Workflow', proficiency: 85, tag: 'VCS / Workflows' },
+          { name: 'JavaFX', level: 'Project Experience', proficiency: 80, tag: 'Desktop UI' },
+          { name: 'Raylib', level: 'Game Engineering', proficiency: 78, tag: '2D Graphics' },
+          { name: 'Linux & Bash', level: 'Comfortable', proficiency: 75, tag: 'Unix CLI' },
+        ],
+      },
+    ],
+  },
+  projects: {
+    sectionNum: '03',
+    title: 'Featured Works',
+    subtitle: 'Curated selection of personal software, hardware accelerators, and graphics',
+    filterAll: 'All Works',
+    filterFlagship: 'Flagship (UniSchedule)',
+    filterSoftware: 'Software & Games',
+    filterHardware: 'Hardware & HLS',
+    viewLive: 'Live Demo',
+    viewGithub: 'Source Code',
+    detailsBtn: 'Specifications',
+    items: [
+      {
+        id: 'unischedule',
+        number: '01',
+        title: 'UniSchedule',
+        subtitle: 'Smart & Minimalist University Timetable Planner',
+        description:
+          'Flagship personal project engineered with high architectural care. Solves weekly class timetable and final exam collisions in real time, supporting 5 major universities with modular extensibility.',
+        fullDetails:
+          'UniSchedule prioritizes ergonomic clarity and instant computation. Students compose collision-free academic schedules in seconds without cumbersome form friction, leveraging real-time interval testing and fast local storage.',
+        category: 'flagship',
+        tags: ['React', 'TypeScript', 'Tailwind', 'Algorithms', 'Minimalist UI'],
+        featured: true,
+        year: '2026',
+        role: 'Sole Architect, Designer & Developer',
+        highlights: [
+          'Out-of-the-box support for 5 top universities with scalable data structures',
+          'Instant 100% collision detection for class hours and final exams',
+          'Ergonomic, minimalist typography layout prioritizing student focus',
+        ],
+        metrics: [
+          { label: 'Active Universities', value: '5 Universities' },
+          { label: 'Conflict Detection', value: '100% Real-time' },
+          { label: 'Architecture', value: 'Modular & Fast' },
+        ],
+        accentColor: 'from-fuchsia-600 to-purple-600',
+      },
+      {
+        id: 'pso-hardware',
+        number: '02',
+        title: 'PSO Hardware Accelerator',
+        subtitle: 'BTS Telecommunication Placement via VHDL & HLS',
+        description:
+          'Hardware accelerator implementing Particle Swarm Optimization to determine optimal Base Transceiver Station (BTS) coverage, overcoming CPU bottlenecks through circuit parallelism.',
+        fullDetails:
+          'By leveraging High-Level Synthesis (HLS) and deep pipelining in VHDL, swarm fitness evaluation and particle velocity updates achieve significant throughput gains over traditional software execution.',
+        category: 'hardware',
+        tags: ['VHDL', 'HLS', 'FPGA', 'Digital Systems', 'Optimization'],
+        featured: false,
+        year: '2026',
+        role: 'Digital Hardware Designer',
+        highlights: [
+          'Pipelined arithmetic units maximizing clock frequency',
+          'Mathematical modeling of antenna radiation patterns and fitness functions',
+        ],
+        metrics: [
+          { label: 'Technology', value: 'VHDL / HLS' },
+          { label: 'Application', value: 'BTS Coverage' },
+        ],
+        accentColor: 'from-amber-600 to-orange-600',
+      },
+      {
+        id: 'foodline',
+        number: '03',
+        title: 'FoodLine Desktop Platform',
+        subtitle: 'Comprehensive Ordering Platform in Java & JavaFX',
+        description:
+          'Desktop food delivery system modeled after SnappFood, applying clean Object-Oriented principles (SOLID), modular business logic, and custom JavaFX styling.',
+        fullDetails:
+          'Focuses on clean software architecture, multi-vendor cart management, dynamic vouchers, and strict separation between business and view layers.',
+        category: 'software',
+        tags: ['Java', 'JavaFX', 'OOP Architecture', 'Desktop GUI'],
+        featured: false,
+        year: '2025',
+        role: 'Software Architect & Java Developer',
+        highlights: [
+          'Robust object-oriented models ensuring clean maintainability',
+          'Custom JavaFX desktop UI replicating modern ergonomics',
+        ],
+        metrics: [
+          { label: 'Core Language', value: 'Pure Java' },
+          { label: 'GUI Framework', value: 'JavaFX' },
+        ],
+        accentColor: 'from-emerald-600 to-teal-600',
+      },
+      {
+        id: 'pacman-c',
+        number: '04',
+        title: 'Pac-Man Arcade Engine',
+        subtitle: 'Low-Level Game Engine in Pure C with Raylib',
+        description:
+          'Custom recreation of arcade Pac-Man built from scratch in ANSI C with Raylib, featuring custom grid physics, 60 FPS timing, and deterministic ghost AI states.',
+        fullDetails:
+          'Crafting a 2D engine in raw C without heavy commercial game engines provides deep insights into double buffering, memory layout, and deterministic state machines.',
+        category: 'software',
+        tags: ['C Language', 'Raylib', 'Game Loop', 'AI States'],
+        featured: false,
+        year: '2024',
+        role: 'Game Developer & Algorithm Designer',
+        highlights: [
+          'Locked 60 FPS performance with negligible memory consumption',
+          'Faithful arcade ghost AI behaviors (Chase, Scatter, Frightened)',
+        ],
+        metrics: [
+          { label: 'Language', value: 'Pure C' },
+          { label: 'Performance', value: '60 FPS Fixed' },
+        ],
+        accentColor: 'from-yellow-500 to-amber-600',
+      },
+    ],
+  },
+  education: {
+    sectionNum: '04',
+    title: 'Academic Credentials',
+    subtitle: 'Rigorous engineering foundations at Tehran Polytechnic',
+    degree: 'Bachelor of Science (B.Sc.)',
+    field: 'Computer Engineering',
+    institution: 'Amirkabir University of Technology (Tehran Polytechnic)',
+    period: '2022 — Present (Undergraduate)',
+    location: 'Tehran, Iran',
+    description:
+      'Undergraduate student in Computer Engineering; focusing on foundational computer science and systems architecture, digital logic, data structures, computer architecture, and software design principles.',
+    courses: [
+      'Digital System Design & Hardware Description',
+      'Advanced Data Structures & Algorithms',
+      'Logic Circuits & Hardware Synthesis',
+      'Operating Systems & Low-Level Programming',
+    ],
+  },
+  contact: {
+    sectionNum: '05',
+    title: "Let's Collaborate",
+    subtitle: 'Direct channels for engineering projects & discussions',
+    leadText:
+      'Whether you are looking for an engineer committed to architectural discipline, exploring a high-standard collaboration, or discussing tech, reach out directly.',
+    email: 'alimohamadi.dev@example.com',
+    copyEmail: 'Copy Email',
+    copied: 'Copied!',
+    form: {
+      name: 'Your Name',
+      email: 'Your Email',
+      message: 'Your message or project scope...',
+      submit: 'Send Message →',
+      sending: 'Sending...',
+      sent: 'Thank you! Your message has been received.',
+    },
+  },
+  footer: {
+    signature: 'Ali Mohamadi • Computer Engineer',
+    copyright: '© 2026 All rights reserved.',
+    backToTop: 'Back to Top ↑',
+  },
+};
