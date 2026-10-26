@@ -15,7 +15,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       const saved = localStorage.getItem('portfolio_design1_theme') as Theme | null;
       if (saved) return saved;
     }
-    return 'light'; // Default to iconic light editorial design from the reference image
+    return 'dark'; // Default to dark theme for first-time visitors
   });
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl" class="light">
+<html lang="fa" dir="rtl" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -7,6 +7,22 @@
     <meta name="description" content="علی محمدی | دانشجوی مهندسی کامپیوتر دانشگاه صنعتی امیرکبیر — دیزاین ادیتوریال و مینیمال" />
     <title>علی محمدی | Ali Mohamadi — مهندس کامپیوتر</title>
     
+    <!-- Instant Zero-Flash Theme Initialization -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('portfolio_design1_theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          } else {
+            document.documentElement.classList.remove('light');
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <!-- Sahel Font (Persian) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css">
 
@@ -15,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-[#f5f5f7] text-neutral-900 dark:bg-[#06080d] dark:text-neutral-100 antialiased selection:bg-fuchsia-600 selection:text-white dark:selection:bg-emerald-500 dark:selection:text-black min-h-screen">
+  <body class="bg-[#f5f5f7] text-neutral-900 dark:bg-[#101218] dark:text-neutral-100 antialiased selection:bg-fuchsia-600 selection:text-white dark:selection:bg-orange-500 dark:selection:text-black min-h-screen">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
