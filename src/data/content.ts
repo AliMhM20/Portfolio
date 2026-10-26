@@ -120,6 +120,8 @@ export const contentFA: SiteContent = {
         tags: ['React', 'TypeScript', 'Tailwind', 'Algorithms', 'Minimalist UI'],
         featured: true,
         year: '۱۴۰۵',
+        githubUrl: 'https://github.com/AliMhM20/unischedule',
+        liveUrl: 'https://alimhm20.github.io/unischedule',
         role: 'طراح، معمار نرم‌افزار و توسعه‌دهنده',
         highlights: [
           'پشتیبانی پیش‌فرض از ۵ دانشگاه کشور با قابلیت افزوده شدن دانشگاه‌های بیشتر',
@@ -231,7 +233,7 @@ export const contentFA: SiteContent = {
     subtitle: 'ارتباط مستقیم جهت گفتگو پیرامون پروژه‌ها و فرصت‌های کاری',
     leadText:
       'اگر به دنبال توسعه‌دهنده‌ای متعهد به استانداردهای بالای مهندسی هستید یا ایده‌ای دارید که نیازمند پیاده‌سازی فنی دقیق است، خوشحال می‌شوم پیام بفرستید.',
-    email: 'alimohamadi.dev@example.com',
+    email: 'alimhm@aut.ac.ir',
     copyEmail: 'کپی ایمیل',
     copied: 'کپی شد!',
     form: {
@@ -370,6 +372,8 @@ export const contentEN: SiteContent = {
         tags: ['React', 'TypeScript', 'Tailwind', 'Algorithms', 'Minimalist UI'],
         featured: true,
         year: '2026',
+        githubUrl: 'https://github.com/AliMhM20/unischedule',
+        liveUrl: 'https://alimhm20.github.io/unischedule',
         role: 'Sole Architect, Designer & Developer',
         highlights: [
           'Out-of-the-box support for 5 top universities with scalable data structures',
@@ -481,7 +485,7 @@ export const contentEN: SiteContent = {
     subtitle: 'Direct channels for engineering projects & discussions',
     leadText:
       'Whether you are looking for an engineer committed to architectural discipline, exploring a high-standard collaboration, or discussing tech, reach out directly.',
-    email: 'alimohamadi.dev@example.com',
+    email: 'alimhm@aut.ac.ir',
     copyEmail: 'Copy Email',
     copied: 'Copied!',
     form: {

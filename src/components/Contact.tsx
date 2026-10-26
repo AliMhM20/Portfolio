@@ -91,7 +91,7 @@ export const Contact: React.FC = () => {
             {/* Channels List */}
             <div className="grid grid-cols-3 gap-2 font-mono text-xs text-center">
               <a
-                href="https://github.com"
+                href="https://github.com/AliMhM20"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 bg-neutral-100 dark:bg-[#1b1f2b] border border-neutral-200 dark:border-[#2a2e3d] hover:border-black dark:hover:border-orange-500 hover:text-black dark:hover:text-orange-400 transition-colors flex items-center justify-center gap-1.5 font-bold"
@@ -100,7 +100,7 @@ export const Contact: React.FC = () => {
                 <span>GITHUB</span>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ali-mohamadi-aut"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 bg-neutral-100 dark:bg-[#1b1f2b] border border-neutral-200 dark:border-[#2a2e3d] hover:border-black dark:hover:border-orange-500 hover:text-black dark:hover:text-orange-400 transition-colors flex items-center justify-center gap-1.5 font-bold"
@@ -109,7 +109,7 @@ export const Contact: React.FC = () => {
                 <span>LINKEDIN</span>
               </a>
               <a
-                href="https://t.me"
+                href="https://t.me/alimhm_20"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 bg-neutral-100 dark:bg-[#1b1f2b] border border-neutral-200 dark:border-[#2a2e3d] hover:border-black dark:hover:border-orange-500 hover:text-black dark:hover:text-orange-400 transition-colors flex items-center justify-center gap-1.5 font-bold"

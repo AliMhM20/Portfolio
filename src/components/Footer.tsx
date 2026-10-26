@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
           {/* Social Icons in Footer */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/AliMhM20"
               target="_blank"
               rel="noreferrer"
               className="text-neutral-500 hover:text-black dark:hover:text-orange-400 transition-colors"
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
               <GithubIcon size={16} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ali-mohamadi-aut"
               target="_blank"
               rel="noreferrer"
               className="text-neutral-500 hover:text-black dark:hover:text-orange-400 transition-colors"
@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
               <LinkedinIcon size={16} />
             </a>
             <a
-              href="https://t.me"
+              href="https://t.me/alimhm_20"
               target="_blank"
               rel="noreferrer"
               className="text-neutral-500 hover:text-black dark:hover:text-orange-400 transition-colors"

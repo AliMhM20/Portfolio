@@ -102,7 +102,7 @@ export const Projects: React.FC = () => {
 
                   <div className="flex items-center gap-2">
                     <a
-                      href={flagship.githubUrl || 'https://github.com'}
+                      href={flagship.githubUrl || 'https://github.com/AliMhM20/unischedule'}
                       target="_blank"
                       rel="noreferrer"
                       className="px-2.5 py-1.5 border border-neutral-300 dark:border-[#2a2e3d] hover:border-black dark:hover:border-orange-500 text-xs font-mono font-semibold text-neutral-800 dark:text-neutral-200 hover:text-black dark:hover:text-orange-400 transition-colors flex items-center gap-1.5 cursor-pointer"
@@ -182,7 +182,7 @@ export const Projects: React.FC = () => {
 
                 <div className="flex items-center gap-2">
                   <a
-                    href={p.githubUrl || 'https://github.com'}
+                    href={p.githubUrl || 'https://github.com/AliMhM20'}
                     target="_blank"
                     rel="noreferrer"
                     className="p-1 text-neutral-400 hover:text-black dark:hover:text-orange-400 transition-colors"

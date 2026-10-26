@@ -143,7 +143,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
 
             <div className="flex items-center gap-3">
               <a
-                href={project.githubUrl || 'https://github.com'}
+                href={project.githubUrl || 'https://github.com/AliMhM20'}
                 target="_blank"
                 rel="noreferrer"
                 className="px-4 py-2 border border-neutral-300 dark:border-[#2a2e3d] hover:border-black dark:hover:border-orange-500 text-xs font-mono font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
